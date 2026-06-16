@@ -383,7 +383,11 @@ ul {
   }
 
   .hero__image img {
-    max-width: 280px;
+    max-width: 220px;
+  }
+
+  .banner__image img {
+    object-fit: contain;
   }
 }
 
@@ -463,6 +467,11 @@ ul {
   justify-content: center;
   width: 100vw;
   margin-left: calc(50% - 50vw);
+}
+
+.banner__image picture {
+  display: block;
+  width: 100%;
 }
 
 .banner__image img {
